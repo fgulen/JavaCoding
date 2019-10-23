@@ -18,7 +18,9 @@ public class Code10_tripleAccendingNumber {
 	public static boolean method(int[] z) {
 
 		for (int i = 0; i < z.length-3; i++) {
+			
 			if( z[i]+1 == z[i+1] && z[i+1] == z[i+1]+1 ) {
+				
 				return true;
 			}
 		}
