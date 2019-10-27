@@ -13,7 +13,7 @@ public class Code13_PrintLetters {
 	 
 	    char c;
 	    
-	        for(c = start; c <= end; ++c)
+	        for(c = start; c <= end; c++)
 	            System.out.print(c);
 
 	    
